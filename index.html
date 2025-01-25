@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ScreenFlow Pro</title>
+      <link rel="stylesheet" href="styles.css">
+      <head>
+    </head>
+    <body>
+      <div class="popup-container">
+      <header>
+        <h1>ScreenFlow Pro V3.1</h1>
+      </header>
+    
+      <section class="settings">
+        <h2>Settings</h2>
+        <label for="resolution">Resolution:</label>
+        <select id="resolution">
+          <option value="default">Default</option>
+          <option value="1920x1080">1920x1080</option>
+          <option value="1280x720">1280x720</option>
+          <option value="640x480">640x480</option>
+        </select>
+    
+        <label for="quality">Quality:</label>
+        <select id="quality">
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+    
+        <label for="mic-audio">Microphone Audio:</label>
+        <input type="checkbox" id="mic-audio" checked />
+    
+        <label for="sys-audio">System Audio:</label>
+        <input type="checkbox" id="sys-audio" checked />
+      </section>
+    
+      <section class="controls">
+        <button id="start">Start Recording</button>
+        <button id="pause" disabled>Pause</button>
+        <button id="resume" disabled>Resume</button>
+        <button id="stop" disabled>Stop</button>
+      </section>
+    
+      <section id="download" class="hidden">
+        <h3>Download Recording</h3>
+        <a id="downloadLink" download="recording.webm">Download</a>
+      </section>
+    
+      <section class="support">
+        <h2>Developer Support</h2>
+        <p>If you encounter any issues or have suggestions, please reach out:</p>
+        <button id="contactSupport">Contact Support</button>
+        <button id="reportBug">Report a Bug</button>
+      </section>
+    
+      <footer>
+        <p>Developed by Ambarish Mandal</p>
+        <p>Email: dev.ambarish.ofc@gmail.com</p>
+      </footer>
+    
+      <script src="popup.js"></script>
+      <script src="canvas.js"></script>
+      </div>
+    </body>
+    </html>

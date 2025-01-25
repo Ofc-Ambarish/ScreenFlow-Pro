@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: 20px;
+  color: #333;
+  background-color: #f9f9f9;
+  width: 600px;
+}
+.popup-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #0066cc;
+  text-align: center;
+}
+
+.settings, .controls {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+select, input[type="text"], button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #147de5;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #04519f;
+  color: white;
+  
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.support {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.support h2 {
+  font-size: 18px;
+  color: #0066cc;
+}
+
+.support p {
+  font-size: 14px;
+  color: #555;
+}
+
+.support button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.support button:hover {
+  background-color: #218838;
+}
