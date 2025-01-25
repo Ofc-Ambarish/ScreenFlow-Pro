@@ -65,7 +65,7 @@
 - *Contact Developer*:  
    For support or feature requests, contact the developer via:  
    - *Email*: dev.ambarish.ofc@gmail.com  
-   - *GitHub Issues*: [GitHub Issues Link]
+   - *GitHub Issues*: https://github.com/Ofc-Ambarish/ScreenFlow-Pro/issues
 
 - *Report a Bug*:  
    Report any bugs directly through the extension or via GitHub issues.
