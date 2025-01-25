@@ -6,7 +6,6 @@
 
 ### *ScreenFlow Pro*
 
-*Description*:  
 *ScreenFlow Pro* is a professional-grade Chrome extension designed for seamless screen recording with powerful features such as audio capture, customizable resolution, recording quality, and annotations. It allows users to record their screen in high-quality formats with options for system and microphone audio. ScreenFlow Pro also offers pause/resume functionality and ensures an automatic download of the recording once the session is completed, making it the perfect tool for professionals and content creators alike.
 
 ---
